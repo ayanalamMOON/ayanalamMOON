@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ayan Alam</h1>
-# 💫 About Me:
+💫 About Me:
 🔭 I’m currently working on Time Table Generator algorithms for College and Universities<br><br>💬 Ask me about C++, C, python
 
 
