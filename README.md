@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ayan Alam</h1>
+<h1 align="center">Hello there , I'm Ayan Alam</h1>
 💫 About Me:
 🔭 I’m currently working on Time Table Generator algorithms for College and Universities<br><br>💬 Ask me about C++, C, python
 
