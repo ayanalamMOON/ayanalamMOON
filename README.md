@@ -1,6 +1,3 @@
-[![Unsplash](https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw)](https://unsplash.com/photos/black-flat-screen-computer-monitor-8qEB0fTe9Vw)
-
-
 <h1 align="center">Hello there , I'm Ayan Alam</h1>
 💫 About Me:
 🔭 I’m currently working on Time Table Generator algorithms for College and Universities<br><br>💬 Ask me about C++, C, python
