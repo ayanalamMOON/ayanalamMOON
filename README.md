@@ -1,16 +1,13 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&background=FF000000&center=true&vCenter=true&width=600&lines=Hello+there%2C+I'm+Ayan+Alam;Full+Stack+Developer;AI+%26+ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+<div align="cente- 📫 How to reach me: **[mdayanalam12a@gmail.com](mailto:mdayanalam12a@gmail.com)**
+- ⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**
+
+## 🌐 Connect with me:img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&background=FF000000&center=true&vCenter=true&width=600&lines=Hello+there%2C+I'm+Ayan+Alam;Full+Stack+Developer;AI+%26+ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
 </div>
 
 ## 🌐 Connect with me:
 
 
 ⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/ayanalamMOON?label=Followers&style=social" alt="GitHub Followers" />
-</div>
 
 ## 🚀 About Me
 
@@ -152,9 +149,9 @@
   
   <!-- Enhanced Profile Visit Counters -->
   <div>
-    <!-- Main Visit Counter with Custom Styling -->
-    <img src="https://visitcount.itsvg.in/api?id=ayanalamMOON&label=Profile%20Views&color=9f7aea&icon=5&pretty=true" alt="Profile Views" />
-    <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Total%20Visits&color=blueviolet&style=for-the-badge" alt="Total Profile Views" />
+    <!-- Reliable Visit Counters -->
+    <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Profile%20Views&color=9f7aea&style=for-the-badge" alt="Profile Views" />
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FayanalamMOON&count_bg=%239F7AEA&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Hits&edge_flat=false" alt="Profile Hits" />
   </div>
   
   <br/>
@@ -163,7 +160,15 @@
   <div>
     <img src="https://img.shields.io/github/followers/ayanalamMOON?label=Followers&style=social" alt="GitHub Followers" />
     <img src="https://img.shields.io/github/stars/ayanalamMOON?label=Stars&style=social" alt="GitHub Stars" />
-    <img src="https://badges.pufler.dev/visits/ayanalamMOON/ayanalamMOON?color=purple&logo=github&style=flat-square" alt="Repo Visits" />
+    <img src="https://img.shields.io/badge/Profile%20Views-Count%20Live-purple?style=flat-square&logo=github" alt="Live Counter" />
+  </div>
+  
+  <br/>
+  
+  <!-- Alternative Visit Counters -->
+  <div>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ayanalamMOON.ayanalamMOON&left_color=purple&right_color=violet" alt="Visitor Badge" />
+    <img src="https://profile-counter.glitch.me/ayanalamMOON/count.svg" alt="Profile Counter" />
   </div>
   
   <br/>
