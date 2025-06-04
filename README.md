@@ -149,7 +149,92 @@
 <div align="center">
   <h3>💖 Thanks for visiting my profile!</h3>
   <p>⭐️ From <a href="https://github.com/ayanalamMOON">ayanalamMOON</a></p>
-  <img src="https://visitcount.itsvg.in/api?id=ayanalamMOON&icon=2&color=12" alt="Visit Count" />
+  
+  <!-- Enhanced Profile Visit Counters -->
+  <div>
+    <!-- Main Visit Counter with Custom Styling -->
+    <img src="https://visitcount.itsvg.in/api?id=ayanalamMOON&label=Profile%20Views&color=9f7aea&icon=5&pretty=true" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Total%20Visits&color=blueviolet&style=for-the-badge" alt="Total Profile Views" />
+  </div>
+  
+  <br/>
+  
+  <!-- Additional Counters and Stats -->
+  <div>
+    <img src="https://img.shields.io/github/followers/ayanalamMOON?label=Followers&style=social" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/stars/ayanalamMOON?label=Stars&style=social" alt="GitHub Stars" />
+    <img src="https://badges.pufler.dev/visits/ayanalamMOON/ayanalamMOON?color=purple&logo=github&style=flat-square" alt="Repo Visits" />
+  </div>
+  
+  <br/>
+  
+  <!-- Status and Update Badges -->
+  <div>
+    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=github" alt="Profile Status" />
+    <img src="https://img.shields.io/badge/Last%20Updated-December%202024-blue?style=flat-square&logo=github" alt="Last Updated" />
+    <img src="https://img.shields.io/badge/Response%20Time-Fast-green?style=flat-square&logo=speedtest" alt="Response Time" />
+  </div>
+  
+  <!-- Advanced Visitor Analytics -->
+  <br/>
+  <details>
+    <summary>📊 Detailed Analytics & Insights</summary>
+    <br/>
+    
+    <!-- Visitor Analytics Cards -->
+    <div align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=ayanalamMOON&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9f7aea&icon_color=9f7aea" alt="Visitor Analytics" width="400" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayanalamMOON&theme=tokyonight&hide_border=true&background=0D1117&stroke=9f7aea&ring=9f7aea&fire=9f7aea&currStreakLabel=9f7aea" alt="Streak Analytics" width="400" />
+    </div>
+    
+    <br/>
+    
+    <!-- Profile Insights -->
+    <div>
+      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+    </div>
+    
+    <br/>
+    
+    <!-- Visitor Engagement Metrics -->
+    <div>
+      <img src="https://img.shields.io/badge/Profile%20Engagement-High-success?style=for-the-badge&logo=github" alt="Engagement Level" />
+      <img src="https://img.shields.io/badge/Community%20Impact-Growing-orange?style=for-the-badge&logo=community" alt="Community Impact" />
+      <img src="https://img.shields.io/badge/Open%20Source-Enthusiast-blue?style=for-the-badge&logo=opensource" alt="Open Source" />
+    </div>
+    
+    <br/>
+    
+    <!-- Real-time Activity -->
+    <div>
+      <img src="https://img.shields.io/badge/🔴%20Live%20Status-Online-brightgreen?style=flat-square" alt="Live Status" />
+      <img src="https://img.shields.io/badge/⚡%20Response%20Rate-Within%2024h-yellow?style=flat-square" alt="Response Rate" />
+      <img src="https://img.shields.io/badge/💡%20Currently%20Working%20On-Full%20Stack%20Projects-informational?style=flat-square" alt="Current Focus" />
+    </div>
+  </details>
+  
+  <!-- Interactive Elements -->
+  <br/>
+  <h4>🎯 Quick Actions</h4>
+  <div>
+    <a href="https://github.com/ayanalamMOON?tab=repositories&sort=stargazers">
+      <img src="https://img.shields.io/badge/⭐%20Star%20My%20Repos-Click%20Here-yellow?style=for-the-badge&logo=github" alt="Star Repositories" />
+    </a>
+    <a href="https://github.com/ayanalamMOON?tab=followers">
+      <img src="https://img.shields.io/badge/🤝%20Follow%20Me-Click%20Here-blue?style=for-the-badge&logo=github" alt="Follow Me" />
+    </a>
+    <a href="https://github.com/ayanalamMOON/ayanalamMOON/issues/new">
+      <img src="https://img.shields.io/badge/💬%20Start%20Discussion-Click%20Here-green?style=for-the-badge&logo=github" alt="Start Discussion" />
+    </a>
+  </div>
+</div>
+
+<!-- Fun Facts Footer -->
+<div align="center">
+  <br/>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
+  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
+  <img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt="Makes People Smile" />
 </div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
