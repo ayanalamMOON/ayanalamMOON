@@ -2,11 +2,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&background=FF000000&center=true&vCenter=true&width=600&lines=Hello+there%2C+I'm+Ayan+Alam;Full+Stack+Developer;AI+%26+ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
 </div>
 
-## 🌐 Connect with me:
-
-
-⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/ayanalamMOON?label=Followers&style=social" alt="GitHub Followers" />
