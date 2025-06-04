@@ -25,25 +25,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Create dist directory
-        run: mkdir -p dist
+      - name: Create output directory
+        run: mkdir -p output
         
       # generates a snake game from a github user contributions graph, output a svg animation
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ayanalamMOON
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-light.svg?palette=github-light
+            output/snake.svg
+            output/snake-dark.svg?palette=github-dark
+            output/snake-light.svg?palette=github-light
             
       - name: Verify generated files
         run: |
           echo "Generated files:"
-          ls -la dist/
+          ls -la output/
           echo "Checking SVG validity:"
-          for file in dist/*.svg; do
+          for file in output/*.svg; do
             if [[ -f "$file" ]]; then
               echo "Checking $file..."
               if grep -q "<svg" "$file"; then
@@ -61,7 +61,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: output
           keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
