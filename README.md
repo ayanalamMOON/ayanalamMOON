@@ -4,16 +4,8 @@
 
 ## 🌐 Connect with me:
 
-📫 How to reach me: **[your-email@example.com](mailto:your-email@example.com)**
-- ⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**gn="cente- 📫 How to reach me: **[your-email@example.com](mailto:your-email@example.com)**
-- ⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&background=FF000000&center=true&vCenter=true&width=600&lines=Hello+there%2C+I'm+Ayan+Alam;Full+Stack+Developer;AI+%26+ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
-</div>
-
-## 🌐 Connect with me:
-</div>
+⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions**
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -28,7 +20,7 @@
 - 🌱 I'm currently learning **Advanced Machine Learning** and **System Design**
 - 👯 I'm looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **C++, Python, JavaScript, React, and AI/ML**
-- 📫 How to reach me: **[your-email@example.com](mailto:your-email@example.com)**
+- 📫 How to reach me: **[mdayanalam12a@gmail.com](mailto:mdayanalam12a@gmail.com)**
 - ⚡ Fun fact: **I love solving algorithmic challenges and building innovative solutions** align="center">Hello there , I'm Ayan Alam</h1>
 💫 About Me:
 🔭 I’m currently working on Time Table Generator algorithms for College and Universities<br><br>💬 Ask me about C++, C, python
@@ -107,9 +99,40 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 </div>
 
-### 🎵 Currently Listening To
+### 🎵 My YouTube Music Playlist
 <div align="center">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=your-spotify-username&count=3&unique=true" alt="Spotify Recently Played" />
+  <a href="https://music.youtube.com/playlist?list=PLbomSlWlKgRU1pIWI_nz46etmATwhqPZQ&si=Um-YnArcA3dkW4gx" target="_blank">
+    <img src="https://img.shields.io/badge/🎵%20Listen%20Now-YouTube%20Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white&labelColor=000000" alt="YouTube Music Playlist" />
+  </a>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Playlist%20Status-🔥%20Active-brightgreen?style=flat-square" alt="Playlist Status" />
+  <img src="https://img.shields.io/badge/Tracks-40+-blue?style=flat-square" alt="Track Count" />
+  <img src="https://img.shields.io/badge/Updated-Weekly-orange?style=flat-square" alt="Update Frequency" />
+</div>
+
+#### 🎧 Featured Albums & Artists
+<div align="center">
+  
+| 🎵 **Favorite Genres** | 🎤 **Top Artists** | 📀 **Recent Additions** |
+|:---:|:---:|:---:|
+| Hip-Hop/Rap | Kendrick Lamar | Mr. Morale & The Big Steppers |
+| Pop | The Weeknd | Dawn FM |
+| Electronic | Deadmau5 | Here's The Drop! |
+| Rock | Imagine Dragons | Mercury - Acts 1 & 2 |
+| R&B | SZA | SOS |
+| Alternative | Arctic Monkeys | The Car |
+
+</div>
+
+> 🎶 **"Music is the soundtrack of life"** - Check out my curated collection of tracks that inspire my coding sessions!
+
+#### 🎯 Music Stats
+<div align="center">
+  
+**🎧 Currently Vibing To:** `Playlist has 40+ handpicked tracks`  
+**🎵 Favorite Coding Genre:** `Lo-fi Hip Hop & Synthwave`  
+**⏰ Music Listening Time:** `4-6 hours daily while coding`
+
 </div>
 
 ### 🐍 Contribution Snake
@@ -124,13 +147,6 @@
 ### 🔝 Top Contributed Repo
 <div align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=ayanalamMOON&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repo" />
-</div>
-
-## 🎨 Holopin Badges
-<div align="center">
-  <a href="https://holopin.io/@ayanalamMOON">
-    <img src="https://holopin.me/ayanalamMOON" alt="Holopin Badges" />
-  </a>
 </div>
 
 ---
