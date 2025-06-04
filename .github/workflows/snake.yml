@@ -1,0 +1,76 @@
+name: Generate Snake
+
+on:
+  # run automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # allows to manually run the job at any time
+  workflow_dispatch:
+  
+  # run on every push on the main branch
+  push:
+    branches:
+    - main
+    - master
+    
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Create dist directory
+        run: mkdir -p dist
+        
+      # generates a snake game from a github user contributions graph, output a svg animation
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ayanalamMOON
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
+            
+      - name: Verify generated files
+        run: |
+          echo "Generated files:"
+          ls -la dist/
+          echo "Checking SVG validity:"
+          for file in dist/*.svg; do
+            if [[ -f "$file" ]]; then
+              echo "Checking $file..."
+              if grep -q "<svg" "$file"; then
+                echo "✅ $file is valid"
+              else
+                echo "❌ $file is invalid"
+                exit 1
+              fi
+            fi
+          done
+
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v4.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Cleanup on failure
+        if: failure()
+        run: |
+          echo "Workflow failed. Check the logs above for details."
+          echo "Common issues:"
+          echo "1. Make sure the repository is public or GITHUB_TOKEN has proper permissions"
+          echo "2. Check if the username 'ayanalamMOON' exists and has contribution data"
+          echo "3. Verify the Actions permissions in repository settings"
