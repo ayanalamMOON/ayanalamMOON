@@ -142,6 +142,14 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayanalamMOON/ayanalamMOON/output/snake-light.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ayanalamMOON/ayanalamMOON/output/snake.svg">
   </picture>
+  
+  <!-- Fallback while snake generates -->
+  <br/><br/>
+  <img src="https://github.com/ayanalamMOON/ayanalamMOON/blob/output/snake.svg" alt="Snake animation" />
+  
+  <!-- Alternative contribution visualization -->
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayanalamMOON&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution Activity" />
 </div>
 
 ### 🔝 Top Contributed Repo

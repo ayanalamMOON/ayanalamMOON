@@ -33,6 +33,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ayanalamMOON
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             output/snake.svg
             output/snake-dark.svg?palette=github-dark
