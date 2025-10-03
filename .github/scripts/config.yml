@@ -1,0 +1,33 @@
+# Configuration for README Auto-Update
+# This file allows you to customize how your projects are displayed
+
+# GitHub username (should match your repository owner)
+github_username: "ayanalamMOON"
+
+# Maximum number of projects to display
+max_projects: 5
+
+# Minimum age of last update to consider a project "active" (in months)
+activity_threshold_months: 6
+
+# Projects to exclude from the list (repository names)
+excluded_projects:
+  - "ayanalamMOON"  # Profile repository
+  - ".github"       # Special GitHub repository
+
+# Projects to always include (even if not recently updated)
+pinned_projects: []
+
+# Custom project descriptions (override GitHub descriptions)
+custom_descriptions: {}
+
+# Project categories/tags (optional)
+project_tags: {}
+
+# Display settings
+show_language: true
+show_last_updated: true
+show_stats: false  # Show stars, forks, etc.
+
+# Time zone for "Last updated" display
+timezone: "UTC"
