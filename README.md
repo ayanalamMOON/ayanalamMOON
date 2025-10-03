@@ -1,8 +1,8 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=150&section=header&text=Ayan%20Alam&fontSize=50&fontColor=white&animation=fadeIn" alt="Header"/>
-  
+
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;Open+Source+Contributor;Problem+Solver;Innovation+Builder" alt="Typing Animation" />
-  
+
   <img src="https://komarev.com/ghpvc/?username=ayanalamMOON&label=Profile%20views&color=36BCF7&style=flat" alt="Profile Views" />
 </div>
 
