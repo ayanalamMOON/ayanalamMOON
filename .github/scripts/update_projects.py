@@ -6,20 +6,44 @@ Fetches the most recently updated repositories and formats them for display.
 
 import requests
 import re
+import os
 from datetime import datetime, timezone
 from dateutil.relativedelta import relativedelta
 
-def get_recent_projects(username, max_projects=5):
+def load_config():
+    """Load configuration from config.yml"""
+    try:
+        import yaml
+        config_path = os.path.join(os.path.dirname(__file__), 'config.yml')
+        with open(config_path, 'r') as file:
+            config = yaml.safe_load(file)
+        return config
+    except:
+        # Default configuration if yaml not available or file not found
+        return {
+            'github_username': 'ayanalamMOON',
+            'max_projects': 5,
+            'activity_threshold_months': 6,
+            'excluded_projects': ['ayanalamMOON', '.github'],
+            'show_language': True,
+            'show_last_updated': True
+        }
+
+def get_recent_projects(username, max_projects=5, excluded_projects=None):
     """
     Fetch the most recently updated repositories for a user.
 
     Args:
         username (str): GitHub username
         max_projects (int): Maximum number of projects to return
+        excluded_projects (list): List of repository names to exclude
 
     Returns:
         list: List of repository dictionaries
     """
+    if excluded_projects is None:
+        excluded_projects = []
+
     url = f"https://api.github.com/users/{username}/repos"
     params = {
         'sort': 'updated',
@@ -28,16 +52,21 @@ def get_recent_projects(username, max_projects=5):
         'type': 'owner'
     }
 
+    headers = {
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': f'README-Updater-{username}'
+    }
+
     try:
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params, headers=headers, timeout=30)
         response.raise_for_status()
         repos = response.json()
 
-        # Filter out forks and profile repositories, focus on active projects
+        # Filter out forks and excluded repositories
         active_repos = []
         for repo in repos:
-            # Skip forks and the profile repository itself
-            if repo['fork'] or repo['name'] == username:
+            # Skip forks and excluded repositories
+            if repo['fork'] or repo['name'] in excluded_projects:
                 continue
 
             # Check if repository has been updated recently (within last 6 months)
@@ -141,10 +170,13 @@ def update_readme(projects_content):
 
 def main():
     """Main function to run the update process."""
-    username = "ayanalamMOON"
+    config = load_config()
+    username = config.get('github_username', 'ayanalamMOON')
+    max_projects = config.get('max_projects', 5)
+    excluded_projects = config.get('excluded_projects', ['ayanalamMOON', '.github'])
 
     print(f"🔍 Fetching recent projects for {username}...")
-    projects = get_recent_projects(username)
+    projects = get_recent_projects(username, max_projects, excluded_projects)
 
     if projects:
         print(f"📋 Found {len(projects)} active projects")
