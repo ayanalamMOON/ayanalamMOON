@@ -77,7 +77,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Jupyter Notebook` • *Updated Today*
 
 - **[LLM-Mini-ChatBot](https://github.com/ayanalamMOON/LLM-Mini-ChatBot)** - No description available  
-  `Python` • *Updated Today*
+  `Python` • *Updated Yesterday*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[UVSetUp](https://github.com/ayanalamMOON/UVSetUp)** - Cross-platform UV + VS Code + GitHub Copilot setup template  
   `Python` • *Updated 1 week ago*
 
-*Last updated: October 11, 2025 at 06:27 UTC*
+*Last updated: October 12, 2025 at 06:27 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
