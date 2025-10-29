@@ -74,21 +74,21 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated 3 days ago*
+  `Jupyter Notebook` • *Updated 4 days ago*
 
 - **[LLM-Mini-ChatBot](https://github.com/ayanalamMOON/LLM-Mini-ChatBot)** - No description available  
   `Python` • *Updated 2 weeks ago*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
-  `Rust` • *Updated 3 weeks ago*
+  `Rust` • *Updated 4 weeks ago*
 
 - **[lunarbot-smart-india-hackathon](https://github.com/ayanalamMOON/lunarbot-smart-india-hackathon)** - ��� LUNARBOT: Autonomous Lunar Habitat Robot for Smart India Hackathon 2024-25. Multi-robot coordination system with advanced SLAM, AI/ML pipeline, and NASA Artemis alignment.  
   `Python` • *Updated 4 weeks ago*
 
 - **[UVSetUp](https://github.com/ayanalamMOON/UVSetUp)** - Cross-platform UV + VS Code + GitHub Copilot setup template  
-  `Python` • *Updated 4 weeks ago*
+  `Python` • *Updated 1 month ago*
 
-*Last updated: October 28, 2025 at 06:32 UTC*
+*Last updated: October 29, 2025 at 06:32 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
