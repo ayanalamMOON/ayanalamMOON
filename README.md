@@ -71,7 +71,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 </div>
 
 <!-- PROJECTS-START -->
-**🚀 Active Projects:**
+** Active Projects:**
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
   `Jupyter Notebook` • *Updated Today*
