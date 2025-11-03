@@ -71,7 +71,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 </div>
 
 <!-- PROJECTS-START -->
-**Active Projects:**
+**🚀 Active Projects:**
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
   `Jupyter Notebook` • *Updated Yesterday*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[lunarbot-smart-india-hackathon](https://github.com/ayanalamMOON/lunarbot-smart-india-hackathon)** - ��� LUNARBOT: Autonomous Lunar Habitat Robot for Smart India Hackathon 2024-25. Multi-robot coordination system with advanced SLAM, AI/ML pipeline, and NASA Artemis alignment.  
   `Python` • *Updated 1 month ago*
 
-*Last updated: November 03, 2025 at 17:19 UTC*
+*Last updated: November 03, 2025 at 17:20 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
