@@ -71,16 +71,16 @@ Currently working on **Time Table Generator algorithms** for educational institu
 </div>
 
 <!-- PROJECTS-START -->
-** Active Projects:**
+**🚀 Active Projects:**
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated Today*
+  `Jupyter Notebook` • *Updated Yesterday*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
-  `Rust` • *Updated Yesterday*
+  `Rust` • *Updated 2 days ago*
 
 - **[LLM-Mini-ChatBot](https://github.com/ayanalamMOON/LLM-Mini-ChatBot)** - No description available  
-  `Python` • *Updated 2 days ago*
+  `Python` • *Updated 3 days ago*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
   `Jupyter Notebook` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[lunarbot-smart-india-hackathon](https://github.com/ayanalamMOON/lunarbot-smart-india-hackathon)** - ��� LUNARBOT: Autonomous Lunar Habitat Robot for Smart India Hackathon 2024-25. Multi-robot coordination system with advanced SLAM, AI/ML pipeline, and NASA Artemis alignment.  
   `Python` • *Updated 1 month ago*
 
-*Last updated: November 03, 2025 at 06:33 UTC*
+*Last updated: November 03, 2025 at 17:19 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
