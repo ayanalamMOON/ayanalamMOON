@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated 6 days ago*
+  `Jupyter Notebook` • *Updated 1 week ago*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[lunarbot-smart-india-hackathon](https://github.com/ayanalamMOON/lunarbot-smart-india-hackathon)** - ��� LUNARBOT: Autonomous Lunar Habitat Robot for Smart India Hackathon 2024-25. Multi-robot coordination system with advanced SLAM, AI/ML pipeline, and NASA Artemis alignment.  
   `Python` • *Updated 1 month ago*
 
-*Last updated: November 09, 2025 at 06:28 UTC*
+*Last updated: November 10, 2025 at 06:33 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
