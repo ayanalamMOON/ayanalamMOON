@@ -73,14 +73,11 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
-- **[SprintHackathon](https://github.com/ayanalamMOON/SprintHackathon)** - No description available  
-  `JavaScript` • *Updated Yesterday*
-
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated 2 days ago*
+  `Jupyter Notebook` • *Updated 3 days ago*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated 5 days ago*
+  `Jupyter Notebook` • *Updated 6 days ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 2 weeks ago*
@@ -88,7 +85,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 3 weeks ago*
 
-*Last updated: November 27, 2025 at 06:34 UTC*
+- **[LLM-Mini-ChatBot](https://github.com/ayanalamMOON/LLM-Mini-ChatBot)** - No description available  
+  `Python` • *Updated 3 weeks ago*
+
+*Last updated: November 28, 2025 at 06:33 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
