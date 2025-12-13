@@ -74,21 +74,21 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
-  `Python` • *Updated Today*
+  `Python` • *Updated Yesterday*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated Yesterday*
+  `Jupyter Notebook` • *Updated 2 days ago*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated 2 weeks ago*
+  `Jupyter Notebook` • *Updated 3 weeks ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
-  `TeX` • *Updated 4 weeks ago*
+  `TeX` • *Updated 1 month ago*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 1 month ago*
 
-*Last updated: December 12, 2025 at 06:35 UTC*
+*Last updated: December 13, 2025 at 06:31 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
