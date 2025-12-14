@@ -74,10 +74,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
-  `Python` • *Updated Yesterday*
+  `TeX` • *Updated Today*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated 2 days ago*
+  `Jupyter Notebook` • *Updated 3 days ago*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
   `Jupyter Notebook` • *Updated 3 weeks ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 1 month ago*
 
-*Last updated: December 13, 2025 at 06:31 UTC*
+*Last updated: December 14, 2025 at 06:31 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
