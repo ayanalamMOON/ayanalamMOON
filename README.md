@@ -74,21 +74,21 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
-  `TeX` • *Updated Today*
+  `TeX` • *Updated Yesterday*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated 3 days ago*
+  `Jupyter Notebook` • *Updated 4 days ago*
 
 - **[computer-networks-course](https://github.com/ayanalamMOON/computer-networks-course)** - Comprehensive Computer Networks course materials including LaTeX documentation, numerical problems, OSI model explanations, and network protocol exercises  
-  `TeX` • *Updated 5 days ago*
+  `TeX` • *Updated 6 days ago*
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
-  `TeX` • *Updated 6 days ago*
+  `TeX` • *Updated 1 week ago*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
   `Jupyter Notebook` • *Updated 1 week ago*
 
-*Last updated: December 20, 2025 at 06:32 UTC*
+*Last updated: December 21, 2025 at 06:32 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
