@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated 2 weeks ago*
+  `Jupyter Notebook` • *Updated 3 weeks ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 3 weeks ago*
@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Jupyter Notebook` • *Updated 3 weeks ago*
 
 - **[computer-networks-course](https://github.com/ayanalamMOON/computer-networks-course)** - Comprehensive Computer Networks course materials including LaTeX documentation, numerical problems, OSI model explanations, and network protocol exercises  
-  `TeX` • *Updated 3 weeks ago*
+  `TeX` • *Updated 4 weeks ago*
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
   `TeX` • *Updated 4 weeks ago*
 
-*Last updated: January 11, 2026 at 06:34 UTC*
+*Last updated: January 12, 2026 at 06:39 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
