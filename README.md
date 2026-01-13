@@ -86,9 +86,9 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `TeX` • *Updated 4 weeks ago*
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
-  `TeX` • *Updated 4 weeks ago*
+  `TeX` • *Updated 1 month ago*
 
-*Last updated: January 12, 2026 at 06:39 UTC*
+*Last updated: January 13, 2026 at 06:36 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
