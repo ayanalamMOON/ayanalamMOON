@@ -80,15 +80,15 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `TeX` • *Updated 3 weeks ago*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
-  `Jupyter Notebook` • *Updated 3 weeks ago*
+  `Jupyter Notebook` • *Updated 4 weeks ago*
 
 - **[computer-networks-course](https://github.com/ayanalamMOON/computer-networks-course)** - Comprehensive Computer Networks course materials including LaTeX documentation, numerical problems, OSI model explanations, and network protocol exercises  
-  `TeX` • *Updated 4 weeks ago*
+  `TeX` • *Updated 1 month ago*
 
 - **[multilingual-search-engine](https://github.com/ayanalamMOON/multilingual-search-engine)** - A modern semantic search engine for discovering songs and poems across Hindi, Hinglish, and English using multilingual embeddings and FAISS vector similarity  
   `TeX` • *Updated 1 month ago*
 
-*Last updated: January 13, 2026 at 06:36 UTC*
+*Last updated: January 14, 2026 at 06:36 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
