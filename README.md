@@ -77,7 +77,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Go` • *Updated Today*
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
-  `Python` • *Updated Today*
+  `Python` • *Updated Yesterday*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
   `Jupyter Notebook` • *Updated 1 month ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
   `Jupyter Notebook` • *Updated 1 month ago*
 
-*Last updated: January 29, 2026 at 06:51 UTC*
+*Last updated: January 30, 2026 at 06:52 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
