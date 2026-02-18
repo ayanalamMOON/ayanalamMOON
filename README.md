@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Jupyter Notebook` • *Updated 1 month ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
-  `TeX` • *Updated 1 month ago*
+  `TeX` • *Updated 2 months ago*
 
 - **[Artificial-Intelligence](https://github.com/ayanalamMOON/Artificial-Intelligence)** - No description available  
   `Jupyter Notebook` • *Updated 2 months ago*
 
-*Last updated: February 17, 2026 at 07:00 UTC*
+*Last updated: February 18, 2026 at 07:02 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
