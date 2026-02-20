@@ -73,8 +73,11 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
+  `Java` • *Updated Today*
+
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
-  `C++` • *Updated Today*
+  `C++` • *Updated Yesterday*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
   `Go` • *Updated 1 week ago*
@@ -83,12 +86,9 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Python` • *Updated 3 weeks ago*
 
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
-  `Jupyter Notebook` • *Updated 1 month ago*
+  `Jupyter Notebook` • *Updated 2 months ago*
 
-- **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
-  `TeX` • *Updated 2 months ago*
-
-*Last updated: February 19, 2026 at 07:01 UTC*
+*Last updated: February 20, 2026 at 06:58 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
