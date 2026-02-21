@@ -74,13 +74,13 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated Today*
+  `Java` • *Updated Yesterday*
 
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
-  `C++` • *Updated Yesterday*
+  `C++` • *Updated 2 days ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 1 week ago*
+  `Go` • *Updated 2 weeks ago*
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
   `Python` • *Updated 3 weeks ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Statistical-Foundation-of-Data-Science](https://github.com/ayanalamMOON/Statistical-Foundation-of-Data-Science)** - Comprehensive course materials and assignments for Statistical Foundation of Data Science. Includes practical assignments on descriptive statistics, probability distributions, hypothesis testing, data visualization, and statistical analysis using Python, pandas, numpy, and matplotlib.  
   `Jupyter Notebook` • *Updated 2 months ago*
 
-*Last updated: February 20, 2026 at 06:58 UTC*
+*Last updated: February 21, 2026 at 06:44 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
