@@ -74,10 +74,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Betanet_HTX_Implementation](https://github.com/ayanalamMOON/Betanet_HTX_Implementation)** - No description available  
-  `Rust` • *Updated Yesterday*
+  `Rust` • *Updated 2 days ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
-  `TeX` • *Updated 6 days ago*
+  `TeX` • *Updated 1 week ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
   `Go` • *Updated 3 weeks ago*
 
-*Last updated: March 01, 2026 at 06:50 UTC*
+*Last updated: March 02, 2026 at 07:00 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
