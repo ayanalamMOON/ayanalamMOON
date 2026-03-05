@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Betanet_HTX_Implementation](https://github.com/ayanalamMOON/Betanet_HTX_Implementation)** - No description available  
-  `Rust` • *Updated 4 days ago*
+  `Rust` • *Updated 5 days ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 1 week ago*
@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Java` • *Updated 1 week ago*
 
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
-  `C++` • *Updated 1 week ago*
+  `C++` • *Updated 2 weeks ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
   `Go` • *Updated 3 weeks ago*
 
-*Last updated: March 04, 2026 at 06:50 UTC*
+*Last updated: March 05, 2026 at 06:55 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
