@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Java` • *Updated 2 weeks ago*
 
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
-  `C++` • *Updated 2 weeks ago*
+  `C++` • *Updated 3 weeks ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
   `Go` • *Updated 1 month ago*
 
-*Last updated: March 11, 2026 at 06:56 UTC*
+*Last updated: March 12, 2026 at 06:58 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
