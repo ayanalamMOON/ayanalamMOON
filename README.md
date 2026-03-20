@@ -80,7 +80,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `TeX` • *Updated 3 weeks ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated 3 weeks ago*
+  `Java` • *Updated 4 weeks ago*
 
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
   `C++` • *Updated 4 weeks ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
   `Go` • *Updated 1 month ago*
 
-*Last updated: March 19, 2026 at 07:00 UTC*
+*Last updated: March 20, 2026 at 06:57 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
