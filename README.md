@@ -73,8 +73,11 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
+  `Rust` • *Updated Today*
+
 - **[Betanet_HTX_Implementation](https://github.com/ayanalamMOON/Betanet_HTX_Implementation)** - No description available  
-  `Rust` • *Updated 4 weeks ago*
+  `Rust` • *Updated 1 month ago*
 
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 1 month ago*
@@ -85,10 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
   `C++` • *Updated 1 month ago*
 
-- **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 1 month ago*
-
-*Last updated: March 29, 2026 at 07:06 UTC*
+*Last updated: March 30, 2026 at 07:44 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
