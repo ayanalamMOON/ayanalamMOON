@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
-  `Rust` • *Updated Today*
+  `Rust` • *Updated Yesterday*
 
 - **[Betanet_HTX_Implementation](https://github.com/ayanalamMOON/Betanet_HTX_Implementation)** - No description available  
   `Rust` • *Updated 1 month ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[SteamdbCLI](https://github.com/ayanalamMOON/SteamdbCLI)** - 🎮 SteamDB CLI A lightning-fast command-line interface for querying Steam game data with a sleek ASCII art interface.  
   `C++` • *Updated 1 month ago*
 
-*Last updated: March 30, 2026 at 07:44 UTC*
+*Last updated: March 31, 2026 at 07:17 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
