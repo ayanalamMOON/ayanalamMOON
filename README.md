@@ -74,10 +74,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated 6 days ago*
+  `Java` • *Updated 1 week ago*
 
 - **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
-  `TypeScript` • *Updated 6 days ago*
+  `TypeScript` • *Updated 1 week ago*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
   `Rust` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 1 month ago*
 
-*Last updated: April 08, 2026 at 07:22 UTC*
+*Last updated: April 09, 2026 at 07:25 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
