@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[GenAi_Prep](https://github.com/ayanalamMOON/GenAi_Prep)** - Comprehensive university-level study guide for LLMs, transformers, RLHF, and generative AI. 335+ pages (actively expanding), 47 visualizations, 4 notebooks. Regular updates with enhanced sections, new implementations, and expanded coverage.  
   `TeX` • *Updated 1 month ago*
 
-*Last updated: April 09, 2026 at 07:25 UTC*
+*Last updated: April 10, 2026 at 07:44 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
