@@ -74,10 +74,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated Today*
+  `Go` • *Updated Yesterday*
 
 - **[VaultJS](https://github.com/ayanalamMOON/VaultJS)** - Production-grade session security framework with epoch-keyed token envelopes, environmental fingerprinting, Argon2id + PBKDF2 dual-layer hashing, and PoW brute-force protection  
-  `JavaScript` • *Updated Today*
+  `JavaScript` • *Updated Yesterday*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 1 week ago*
@@ -86,9 +86,9 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `TypeScript` • *Updated 1 week ago*
 
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
-  `Rust` • *Updated 1 week ago*
+  `Rust` • *Updated 2 weeks ago*
 
-*Last updated: April 12, 2026 at 07:16 UTC*
+*Last updated: April 13, 2026 at 08:06 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
