@@ -71,24 +71,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 </div>
 
 <!-- PROJECTS-START -->
-**🚀 Active Projects:**
-
-- **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 2 days ago*
-
-- **[VaultJS](https://github.com/ayanalamMOON/VaultJS)** - Production-grade session security framework with epoch-keyed token envelopes, environmental fingerprinting, Argon2id + PBKDF2 dual-layer hashing, and PoW brute-force protection  
-  `JavaScript` • *Updated 4 days ago*
-
-- **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated 2 weeks ago*
-
-- **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
-  `TypeScript` • *Updated 2 weeks ago*
-
-- **[Nagari](https://github.com/ayanalamMOON/Nagari)** - Modern programming language combining Python's elegant syntax with JavaScript's ecosystem compatibility. Rust-based transpiler for web development. React, Vue, Express compatible.  
-  `Rust` • *Updated 2 weeks ago*
-
-*Last updated: April 18, 2026 at 07:10 UTC*
+<!-- No recent projects found -->
 <!-- PROJECTS-END -->
 
 <div align="center">
