@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `JavaScript` • *Updated 2 weeks ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated 4 weeks ago*
+  `Java` • *Updated 1 month ago*
 
 - **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
-  `TypeScript` • *Updated 4 weeks ago*
+  `TypeScript` • *Updated 1 month ago*
 
-*Last updated: May 01, 2026 at 08:12 UTC*
+*Last updated: May 02, 2026 at 07:46 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
