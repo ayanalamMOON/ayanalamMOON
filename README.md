@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
   `TypeScript` • *Updated 2 months ago*
 
-*Last updated: June 13, 2026 at 09:17 UTC*
+*Last updated: June 14, 2026 at 09:36 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
