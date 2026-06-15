@@ -80,7 +80,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `TypeScript` • *Updated 2 weeks ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 1 month ago*
+  `Go` • *Updated 2 months ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 2 months ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
   `TypeScript` • *Updated 2 months ago*
 
-*Last updated: June 14, 2026 at 09:36 UTC*
+*Last updated: June 15, 2026 at 12:16 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
