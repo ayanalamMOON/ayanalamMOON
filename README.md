@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
-  `TypeScript` • *Updated Yesterday*
+  `TypeScript` • *Updated 2 days ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 1 month ago*
@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `JavaScript` • *Updated 1 month ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 3 months ago*
+  `Go` • *Updated 4 months ago*
 
 - **[PromptWars](https://github.com/ayanalamMOON/PromptWars)** - PromptWars is an interactive AI prompt-engineering tournament platform with a dual-model local LLM stack: Llama 3 for generation and Llama 3.2 3B for deterministic judging, built with Next.js.  
   `TypeScript` • *Updated 4 months ago*
 
-*Last updated: August 13, 2026 at 07:27 UTC*
+*Last updated: August 14, 2026 at 07:24 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
