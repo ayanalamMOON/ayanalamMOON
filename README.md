@@ -71,7 +71,24 @@ Currently working on **Time Table Generator algorithms** for educational institu
 </div>
 
 <!-- PROJECTS-START -->
-<!-- No recent projects found -->
+**🚀 Active Projects:**
+
+- **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
+  `Python` • *Updated Yesterday*
+
+- **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
+  `TypeScript` • *Updated 2 weeks ago*
+
+- **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
+  `Java` • *Updated 1 month ago*
+
+- **[VaultJS](https://github.com/ayanalamMOON/VaultJS)** - Production-grade session security framework with epoch-keyed token envelopes, environmental fingerprinting, Argon2id + PBKDF2 dual-layer hashing, and PoW brute-force protection  
+  `JavaScript` • *Updated 1 month ago*
+
+- **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
+  `Go` • *Updated 4 months ago*
+
+*Last updated: August 28, 2026 at 18:17 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
