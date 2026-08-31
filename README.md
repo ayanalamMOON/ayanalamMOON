@@ -73,8 +73,11 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
+  `HTML` • *Updated Today*
+
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
-  `Python` • *Updated 3 days ago*
+  `Python` • *Updated 4 days ago*
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 2 weeks ago*
@@ -85,10 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[VaultJS](https://github.com/ayanalamMOON/VaultJS)** - Production-grade session security framework with epoch-keyed token envelopes, environmental fingerprinting, Argon2id + PBKDF2 dual-layer hashing, and PoW brute-force protection  
   `JavaScript` • *Updated 1 month ago*
 
-- **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 4 months ago*
-
-*Last updated: August 30, 2026 at 11:25 UTC*
+*Last updated: August 31, 2026 at 12:56 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
