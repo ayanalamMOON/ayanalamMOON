@@ -74,10 +74,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
-  `Python` • *Updated 2 days ago*
+  `Python` • *Updated 3 days ago*
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
-  `HTML` • *Updated 3 days ago*
+  `HTML` • *Updated 4 days ago*
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
   `Python` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 1 month ago*
 
-*Last updated: September 04, 2026 at 10:47 UTC*
+*Last updated: September 05, 2026 at 10:05 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
