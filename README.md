@@ -74,7 +74,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 **🚀 Active Projects:**
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
-  `Python` • *Updated 5 days ago*
+  `Python` • *Updated 6 days ago*
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
   `HTML` • *Updated 1 week ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 1 month ago*
 
-*Last updated: September 07, 2026 at 11:47 UTC*
+*Last updated: September 08, 2026 at 10:45 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
