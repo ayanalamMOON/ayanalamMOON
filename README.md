@@ -80,7 +80,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `HTML` • *Updated 1 week ago*
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
-  `Python` • *Updated 1 week ago*
+  `Python` • *Updated 2 weeks ago*
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 4 weeks ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 2 months ago*
 
-*Last updated: September 09, 2026 at 10:53 UTC*
+*Last updated: September 10, 2026 at 10:48 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
