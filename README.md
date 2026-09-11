@@ -83,12 +83,12 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Python` • *Updated 2 weeks ago*
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
-  `TypeScript` • *Updated 4 weeks ago*
+  `TypeScript` • *Updated 1 month ago*
 
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 2 months ago*
 
-*Last updated: September 10, 2026 at 10:48 UTC*
+*Last updated: September 11, 2026 at 10:45 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
