@@ -77,7 +77,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Python` • *Updated 1 week ago*
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
-  `HTML` • *Updated 1 week ago*
+  `HTML` • *Updated 2 weeks ago*
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
   `Python` • *Updated 2 weeks ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 2 months ago*
 
-*Last updated: September 13, 2026 at 11:14 UTC*
+*Last updated: September 14, 2026 at 12:02 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
