@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
   `Java` • *Updated 2 months ago*
 
-*Last updated: September 17, 2026 at 11:09 UTC*
+*Last updated: September 18, 2026 at 10:42 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
