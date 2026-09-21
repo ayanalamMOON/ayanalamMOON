@@ -73,11 +73,14 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
+  `Go` • *Updated Today*
+
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
   `Python` • *Updated 2 weeks ago*
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
-  `HTML` • *Updated 2 weeks ago*
+  `HTML` • *Updated 3 weeks ago*
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
   `Python` • *Updated 3 weeks ago*
@@ -85,10 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 1 month ago*
 
-- **[Ryoiki](https://github.com/ayanalamMOON/Ryoiki)** - A domain-specific language for probabilistic combat simulation — first-class probability distributions, relativistic physics frames, domain expansions, and binding vows  
-  `Java` • *Updated 2 months ago*
-
-*Last updated: September 20, 2026 at 10:48 UTC*
+*Last updated: September 21, 2026 at 12:12 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
