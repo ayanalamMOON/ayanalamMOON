@@ -73,8 +73,11 @@ Currently working on **Time Table Generator algorithms** for educational institu
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
+  `Python` • *Updated Today*
+
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated Today*
+  `Go` • *Updated Yesterday*
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
   `Python` • *Updated 2 weeks ago*
@@ -82,13 +85,10 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
   `HTML` • *Updated 3 weeks ago*
 
-- **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
-  `Python` • *Updated 3 weeks ago*
-
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 1 month ago*
 
-*Last updated: September 21, 2026 at 12:12 UTC*
+*Last updated: September 22, 2026 at 11:06 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
