@@ -80,15 +80,15 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Go` • *Updated 1 week ago*
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
-  `Python` • *Updated 3 weeks ago*
+  `Python` • *Updated 4 weeks ago*
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
-  `HTML` • *Updated 4 weeks ago*
+  `HTML` • *Updated 1 month ago*
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 1 month ago*
 
-*Last updated: September 29, 2026 at 12:17 UTC*
+*Last updated: September 30, 2026 at 12:03 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
