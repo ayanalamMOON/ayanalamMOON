@@ -77,7 +77,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
   `Python` • *Updated 1 week ago*
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** - Production-grade backend framework with durable KV storage (ATLAS), JWT authentication, RBAC, rate limiting, job queue, and reverse proxy. Built in Go with strong durability guarantees and enterprise observability.  
-  `Go` • *Updated 1 week ago*
+  `Go` • *Updated 2 weeks ago*
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** - Document perception system for AI coding agents - Transform PDFs, images, and scanned documents into structured, agent-consumable formats. Supports OCR, layout analysis, table detection. Built for GitHub Copilot and AI assistants.  
   `Python` • *Updated 1 month ago*
@@ -88,7 +88,7 @@ Currently working on **Time Table Generator algorithms** for educational institu
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
   `TypeScript` • *Updated 1 month ago*
 
-*Last updated: October 04, 2026 at 11:53 UTC*
+*Last updated: October 05, 2026 at 13:50 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
