@@ -82,25 +82,25 @@ I’m a B.Tech Data Science student building systems at the intersection of **AI
 These high-level diagrams are generated from the portfolio manifest and refreshed automatically.
 
 <!-- ARCHITECTURE-GALLERY-START -->
-These high-level flows are rendered from the profile portfolio manifest. Update that manifest when a project's architecture materially changes.
+The gallery prefers Mermaid diagrams documented in each project's README. If a README has no Mermaid diagram, it uses the corresponding high-level flow from the profile portfolio manifest.
 
 <details>
 <summary><strong>Shader Alchemist</strong> · <a href="https://github.com/ayanalamMOON/Shader-Alchemist">repository</a></summary>
 
 Agentic WebGPU/WGSL shader synthesis, validation, GPU profiling, and iterative refinement.
 
+<sub>Source README diagram</sub>
+
 ```mermaid
 flowchart LR
-  N0["User intent"]
-  N1["Math Architect / MathSpec"]
-  N2["WGSL Writer"]
-  N3["WebGPU validation and profiling"]
-  N4["EvalReport and artifact"]
-  N0 -->|formalize| N1
-  N1 -->|contract| N2
-  N2 -->|candidate shader| N3
-  N3 -->|evidence| N4
-  N3 -. "refinement feedback" .-> N2
+    U[User request] --> S[ADK session state]
+    S --> MA[Math Architect agent]
+    MA -->|MathSpec| SEQ[ADK sequential pipeline]
+    SEQ --> WW[WGSL Writer agent]
+    WW -->|ShaderArtifact| PE[Performance Evaluator agent]
+    PE -->|EvalReport + feedback| LOOP{ADK loop block}
+    LOOP -->|Refine within budget| WW
+    LOOP -->|Pass or terminate| OUT[Artifact assembler]
 ```
 
 </details>
@@ -110,22 +110,20 @@ flowchart LR
 
 Hardware-aware bi-level co-evolution of network topology and continuous hyperparameters.
 
+<sub>Source README diagram</sub>
+
 ```mermaid
-flowchart LR
-  N0["Search controller"]
-  N1["Topology GA"]
-  N2["Hyperparameter PSO-DE"]
-  N3["GP surrogate / UCB"]
-  N4["Distributed training and CUDA"]
-  N5["Hardware-aware fitness"]
-  N6["Selection and next population"]
-  N0 -->|candidate topology| N1
-  N1 -->|co-evolution| N2
-  N2 -->|candidate parameters| N3
-  N3 -->|screen candidates| N4
-  N4 -->|measured metrics| N5
-  N5 -->|rank| N6
-  N6 -. "next generation" .-> N1
+flowchart TD
+    A["NeuroSwarm<br/>Co-Evolution Loop"]
+    B["Upper-Level Evolution<br/><b>Genetic Algorithm (GA)</b><br/><br/>• Discrete DAG topologies<br/>• Subgraph crossover<br/>• Edge toggling<br/>• Operation mutation<br/>• Cycle-prevention checks"]
+    C["Lower-Level Evolution<br/><b>PSO-DE</b><br/><br/>• Continuous hyperparameters<br/>• Particle velocity updates<br/>• Differential Evolution<br/>• Bounds clipping"]
+    D["Gaussian Process Surrogate<br/><b>+ UCB Acquisition</b><br/><br/>• Predicts performance: μ, σ<br/>• Filters expensive evaluations<br/>• UCB(x) = μ(x) + κ · σ(x)"]
+    E["Distributed Ground-Truth Training<br/><b>Ray / Multiprocessing + CUDA</b><br/><br/>• Multi-GPU process allocation<br/>• Pinned / non-blocking CUDA transfers<br/>• Automatic Mixed Precision (AMP)<br/>• CosineAnnealingWarmRestarts"]
+    F["Hardware-Aware Fitness Evaluation<br/><br/><b>F<sub>constrained</sub> = Accuracy − α·max(0, Latency − τ<sub>latency</sub>) − β·max(0, FLOPs − τ<sub>flops</sub>)</b>"]
+    G["Next Co-Evolution Iteration<br/><br/>Fitness feedback → GA + PSO-DE → Surrogate → Training → Hardware Evaluation"]
+
+    A --> B --> C --> D --> E --> F --> G
+    G --> B
 ```
 
 </details>
@@ -134,6 +132,8 @@ flowchart LR
 <summary><strong>Helios</strong> · <a href="https://github.com/ayanalamMOON/Helios">repository</a></summary>
 
 Go backend framework with ATLAS storage, Raft replication, gateway controls, jobs, proxying, and observability.
+
+<sub>Manifest fallback diagram</sub>
 
 ```mermaid
 flowchart LR
@@ -157,19 +157,26 @@ flowchart LR
 
 Local-first developer memory with ingestion, hybrid retrieval, temporal context, and agent-facing interfaces.
 
+<sub>Source README diagram</sub>
+
 ```mermaid
 flowchart LR
-  N0["Code and chat ingestion"]
-  N1["Parsing, chunking, AST signals"]
-  N2["SQLite, vector, and graph memory"]
-  N3["Hybrid and temporal retrieval"]
-  N4["Context compiler"]
-  N5["CX-LINK, MCP, and agent APIs"]
-  N0 -->|normalize| N1
-  N1 -->|memory units| N2
-  N2 -->|index and retrieve| N3
-  N3 -->|ranked context| N4
-  N4 -->|bounded envelope| N5
+  CLI[Primary CLI]
+  MCP[MCP stdio server]
+  DAEMON[Daemon HTTP and WS]
+  CXLINK[CX-LINK routes]
+  MEM[Mempalace]
+  SQLITE[(SQLite)]
+  VECTOR[(Vector provider)]
+  GRAPH[(Graph index)]
+
+  CLI --> DAEMON
+  MCP --> DAEMON
+  DAEMON --> CXLINK
+  CXLINK --> MEM
+  MEM --> SQLITE
+  MEM --> VECTOR
+  MEM --> GRAPH
 ```
 
 </details>
@@ -178,6 +185,8 @@ flowchart LR
 <summary><strong>Nagari</strong> · <a href="https://github.com/ayanalamMOON/Nagari">repository</a></summary>
 
 Rust-based language and toolchain exploring Python-inspired syntax with JavaScript ecosystem interoperability.
+
+<sub>Manifest fallback diagram</sub>
 
 ```mermaid
 flowchart LR
@@ -198,6 +207,8 @@ flowchart LR
 <summary><strong>Aletheia</strong> · <a href="https://github.com/ayanalamMOON/aletheia">repository</a></summary>
 
 Document perception pipeline that turns PDFs, scans, and images into structured agent-consumable information.
+
+<sub>Manifest fallback diagram</sub>
 
 ```mermaid
 flowchart LR
@@ -222,16 +233,16 @@ An automatically refreshed index of recent default-branch engineering activity. 
 <!-- ENGINEERING-NOTEBOOK-START -->
 Automatically indexed from the configured repositories' default branches, covering the last 60 days.
 
-- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Merge branch 'main' of https://github.com/ayanalamMOON/Shader-Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist/commit/4be7bc6a674d653bef6390e958814b8fde299beb)
 - **2026-10-09 · Docs · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [updated readme](https://github.com/ayanalamMOON/Shader-Alchemist/commit/9ccf4e05a78604e1482b33255a5908fcee4b1678)
 - **2026-10-09 · Docs · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Add Shader Alchemist README artwork](https://github.com/ayanalamMOON/Shader-Alchemist/commit/2836365b2b76d1473d1cc0412014b3995169906b)
 - **2026-10-09 · Feature · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [feat: harden WebGPU execution and expand ADK runtime integration](https://github.com/ayanalamMOON/Shader-Alchemist/commit/2f4bf325443231eb8a5678455adee43d47fbf6a2)
-- **2026-10-09 · Feature · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [feat: harden WebGPU execution and expand ADK runtime integration](https://github.com/ayanalamMOON/Shader-Alchemist/commit/4b036c76d1bf79f082ae68850d4c5ee8e602c2e8)
 - **2026-10-09 · Feature · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [feat: initial project scaffold with agent-core pipeline and WebGPU harness](https://github.com/ayanalamMOON/Shader-Alchemist/commit/f0f6e8acdc4908cf92a4e08bd5fc870a7fe31e83)
 - **2026-09-21 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [style(context): apply Black formatting](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9)
 - **2026-09-21 · Feature · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [feat(context): add pretrained Cortexta context bridge](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/615df7b99840559ef1bfa61176887d313080b021)
 - **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Add realistic Helios retail demo application](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a)
 - **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Upgrade and integrate Helios command services](https://github.com/ayanalamMOON/Helios/commit/92948416c6feb69619a2af233bdcfa7d7d562158)
+- **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [updated security handlers](https://github.com/ayanalamMOON/Helios/commit/49d548d534d2ddb57cda2d3a9fd545ae679a6cb3)
+- **2026-08-26 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [updated requirmnets](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/359b31845395006a773cf025f244c378e6556e4d)
 
 Labels are inferred from commit subjects and are navigation hints only. This feed does not claim that a benchmark, experiment, or correctness result passed.
 <!-- ENGINEERING-NOTEBOOK-END -->
@@ -243,14 +254,14 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 <!-- PROJECT-HEALTH-START -->
 | Project | Latest commit checks | License | Latest release | Last push (UTC) |
 |---|---|---|---|---|
-| [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist) | [Not configured](https://github.com/ayanalamMOON/Shader-Alchemist/commit/4be7bc6a674d653bef6390e958814b8fde299beb/checks) | NOASSERTION | None published | 2026-10-09 |
+| [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist) | [No checks reported](https://github.com/ayanalamMOON/Shader-Alchemist/commit/4be7bc6a674d653bef6390e958814b8fde299beb/checks) | Not specified | None published | 2026-10-09 |
 | [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml) | [Passing](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9/checks) | MIT | [v0.2.0](https://github.com/ayanalamMOON/NeuroswarmAutoml/releases/tag/v0.2.0) | 2026-09-21 |
-| [Helios](https://github.com/ayanalamMOON/Helios) | [Not configured](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a/checks) | MIT | [v0.1.0](https://github.com/ayanalamMOON/Helios/releases/tag/v0.1.0) | 2026-09-21 |
+| [Helios](https://github.com/ayanalamMOON/Helios) | [No checks reported](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a/checks) | MIT | [v0.1.0](https://github.com/ayanalamMOON/Helios/releases/tag/v0.1.0) | 2026-09-21 |
 | [Cortexta](https://github.com/ayanalamMOON/Cortexta) | [Passing](https://github.com/ayanalamMOON/Cortexta/commit/433b5eb0836fae818dbfc8afeb933df106d61761/checks) | MIT | [v0.1.3](https://github.com/ayanalamMOON/Cortexta/releases/tag/v0.1.3) | 2026-08-11 |
 | [Nagari](https://github.com/ayanalamMOON/Nagari) | [Passing](https://github.com/ayanalamMOON/Nagari/commit/7747c5ffed71830c9e8d9135c85fa023e349d320/checks) | MIT | None published | 2025-11-01 |
-| [Aletheia](https://github.com/ayanalamMOON/aletheia) | [Not configured](https://github.com/ayanalamMOON/aletheia/commit/5e4fb50bc5b3e088cdb43e88c480dbbb86db9604/checks) | MIT | None published | 2026-01-28 |
+| [Aletheia](https://github.com/ayanalamMOON/aletheia) | [No checks reported](https://github.com/ayanalamMOON/aletheia/commit/5e4fb50bc5b3e088cdb43e88c480dbbb86db9604/checks) | MIT | None published | 2026-01-28 |
 
-<sub>Checks apply to the latest commit on each default branch. “Not configured” means GitHub reported no checks or commit statuses; it is not a passing result. Release and license values come from repository metadata.</sub>
+<sub>Checks apply to the latest commit on each default branch. “No checks reported” means GitHub returned no check runs or commit statuses for that commit; it is not a passing result. Release and license values come from repository metadata.</sub>
 <!-- PROJECT-HEALTH-END -->
 
 ### Recently Updated Repositories
@@ -282,7 +293,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 09, 2026 at 18:08 UTC*
+*Last updated: October 09, 2026 at 18:10 UTC*
 <!-- PROJECTS-END -->
 
 ---
