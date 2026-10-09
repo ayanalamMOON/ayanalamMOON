@@ -11,6 +11,8 @@ on:
     paths:
       - ".github/scripts/**"
       - ".github/workflows/refresh-profile.yml"
+      - "engineering-notebook/**"
+      - "README.md"
 
 permissions:
   contents: write
@@ -43,6 +45,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/update_projects.py
 
+      - name: Generate architecture gallery, engineering notebook, and project health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/generate_portfolio_sections.py
+
       - name: Generate dark activity graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -74,7 +81,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/*.svg
+          git add README.md assets/*.svg engineering-notebook/*.md
 
           if git diff --cached --quiet; then
             echo "Profile README and generated graphics are already up to date."

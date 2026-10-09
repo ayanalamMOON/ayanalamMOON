@@ -1,0 +1,108 @@
+# Project architecture summaries and repositories used by the automated profile sections.
+# Edit descriptions/flows when a project's architecture materially changes.
+featured_projects:
+  - name: Shader Alchemist
+    repo: ayanalamMOON/Shader-Alchemist
+    description: Agentic WebGPU/WGSL shader synthesis, validation, GPU profiling, and iterative refinement.
+    architecture:
+      nodes:
+        - User intent
+        - Math Architect / MathSpec
+        - WGSL Writer
+        - WebGPU validation and profiling
+        - EvalReport and artifact
+      edges:
+        - [0, 1, "formalize"]
+        - [1, 2, "contract"]
+        - [2, 3, "candidate shader"]
+        - [3, 4, "evidence"]
+        - [3, 2, "refinement feedback", "feedback"]
+
+  - name: NeuroSwarm AutoML
+    repo: ayanalamMOON/NeuroswarmAutoml
+    description: Hardware-aware bi-level co-evolution of network topology and continuous hyperparameters.
+    architecture:
+      nodes:
+        - Search controller
+        - Topology GA
+        - Hyperparameter PSO-DE
+        - GP surrogate / UCB
+        - Distributed training and CUDA
+        - Hardware-aware fitness
+        - Selection and next population
+      edges:
+        - [0, 1, "candidate topology"]
+        - [1, 2, "co-evolution"]
+        - [2, 3, "candidate parameters"]
+        - [3, 4, "screen candidates"]
+        - [4, 5, "measured metrics"]
+        - [5, 6, "rank"]
+        - [6, 1, "next generation", "feedback"]
+
+  - name: Helios
+    repo: ayanalamMOON/Helios
+    description: Go backend framework with ATLAS storage, Raft replication, gateway controls, jobs, proxying, and observability.
+    architecture:
+      nodes:
+        - Client and reverse proxy
+        - "Gateway: authentication, RBAC, rate limits"
+        - Services and job workers
+        - ATLAS durable KV store
+        - Raft replication
+        - Metrics, logs, and traces
+      edges:
+        - [0, 1, "request"]
+        - [1, 2, "authorized request"]
+        - [2, 3, "data operations"]
+        - [3, 4, "replicated state"]
+        - [2, 5, "telemetry"]
+
+  - name: Cortexta
+    repo: ayanalamMOON/Cortexta
+    description: Local-first developer memory with ingestion, hybrid retrieval, temporal context, and agent-facing interfaces.
+    architecture:
+      nodes:
+        - Code and chat ingestion
+        - Parsing, chunking, AST signals
+        - SQLite, vector, and graph memory
+        - Hybrid and temporal retrieval
+        - Context compiler
+        - CX-LINK, MCP, and agent APIs
+      edges:
+        - [0, 1, "normalize"]
+        - [1, 2, "memory units"]
+        - [2, 3, "index and retrieve"]
+        - [3, 4, "ranked context"]
+        - [4, 5, "bounded envelope"]
+
+  - name: Nagari
+    repo: ayanalamMOON/Nagari
+    description: Rust-based language and toolchain exploring Python-inspired syntax with JavaScript ecosystem interoperability.
+    architecture:
+      nodes:
+        - .nag source
+        - Rust lexer and parser
+        - AST and semantic analysis
+        - JavaScript code generation
+        - Runtime and JS ecosystem
+      edges:
+        - [0, 1, "source text"]
+        - [1, 2, "tokens and AST"]
+        - [2, 3, "validated program"]
+        - [3, 4, "generated JavaScript"]
+
+  - name: Aletheia
+    repo: ayanalamMOON/aletheia
+    description: Document perception pipeline that turns PDFs, scans, and images into structured agent-consumable information.
+    architecture:
+      nodes:
+        - PDF, image, or scan
+        - Ingestion and preprocessing
+        - Layout analysis and OCR
+        - Table extraction and post-processing
+        - Structured agent-ready output
+      edges:
+        - [0, 1, "load"]
+        - [1, 2, "normalized input"]
+        - [2, 3, "regions and text"]
+        - [3, 4, "validated document model"]

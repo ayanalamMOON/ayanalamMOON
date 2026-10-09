@@ -77,6 +77,27 @@ I’m a B.Tech Data Science student building systems at the intersection of **AI
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** — A local-first developer-memory runtime with semantic retrieval and context management for coding workflows.
 - **[Nagari](https://github.com/ayanalamMOON/Nagari)** — A Rust-based language project exploring a Python-like authoring experience and JavaScript ecosystem interoperability.
 
+### Architecture Gallery
+
+These high-level diagrams are generated from the portfolio manifest and refreshed automatically.
+
+<!-- ARCHITECTURE-GALLERY-START -->
+<!-- ARCHITECTURE-GALLERY-END -->
+
+### Engineering Notebook
+
+An automatically refreshed index of recent default-branch engineering activity. Entries link to source commits; the feed does not invent experiment results or performance claims. Use the [experiment write-up template](./engineering-notebook/EXPERIMENT_TEMPLATE.md) for reproducible investigations.
+
+<!-- ENGINEERING-NOTEBOOK-START -->
+<!-- ENGINEERING-NOTEBOOK-END -->
+
+### Verified Project Health
+
+Latest default-branch checks, release metadata, and declared licenses for the selected public repositories. Projects without configured checks are labelled accordingly rather than being marked as passing.
+
+<!-- PROJECT-HEALTH-START -->
+<!-- PROJECT-HEALTH-END -->
+
 ### Recently Updated Repositories
 
 <!-- PROJECTS-START -->
