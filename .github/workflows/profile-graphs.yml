@@ -1,0 +1,60 @@
+name: Refresh Profile Graphs
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-graphs.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphs
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Generate self-hosted profile charts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ayanalamMOON
+          options: "theme=tokyo-night&bg_color=1a1b27&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true"
+          output_path: assets/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top contributed repositories cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: ayanalamMOON
+          cards: repositories
+          output-dir: assets
+          themes: light,dark
+          commit: false
+
+      - name: Commit refreshed SVGs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-graph.svg assets/repositories.light.svg assets/repositories.dark.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile graphs are already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh generated graphs [skip ci]"
+          git push
