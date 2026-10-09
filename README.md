@@ -73,6 +73,9 @@ I’m a B.Tech Data Science student building systems at the intersection of **AI
 <!-- PROJECTS-START -->
 **🚀 Active Projects:**
 
+- **[Shader-Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** - Agentic WebGPU shader synthesis, validation, and refinement pipeline  
+  `Python` • *Updated Today*
+
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** - A production-grade Neural Architecture Search (NAS) engine that co-evolves network topologies and continuous hyperparameters under real-time hardware latency and FLOP constraints.  
   `Python` • *Updated 2 weeks ago*
 
@@ -85,10 +88,7 @@ I’m a B.Tech Data Science student building systems at the intersection of **AI
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** - No description available  
   `HTML` • *Updated 1 month ago*
 
-- **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** - CORTEXA is a local-first developer memory runtime with semantic retrieval, compaction/resurrection, CX-LINK APIs, and a modern TypeScript CLI.  
-  `TypeScript` • *Updated 1 month ago*
-
-*Last updated: October 09, 2026 at 12:43 UTC*
+*Last updated: October 09, 2026 at 17:35 UTC*
 <!-- PROJECTS-END -->
 
 <div align="center">
