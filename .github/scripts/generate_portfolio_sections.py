@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -133,23 +134,28 @@ def mermaid_for(project: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def architecture_markdown(projects: list[dict[str, Any]]) -> str:
+def architecture_markdown(items: list[dict[str, Any]]) -> str:
     content = [
-        "These high-level flows are rendered from the profile portfolio manifest. Update that manifest when a project's architecture materially changes.",
+        "The gallery prefers Mermaid diagrams documented in each project's README. If a README has no Mermaid diagram, it uses the corresponding high-level flow from the profile portfolio manifest.",
         "",
     ]
-    for project in projects:
+    for item in items:
+        project = item["config"]
         name = clean(project["name"], 90)
         repo = project["repo"]
         description = clean(project.get("description", ""))
+        diagram = item.get("readme_diagram") or mermaid_for(project)
+        origin = "Source README diagram" if item.get("readme_diagram") else "Manifest fallback diagram"
         content.extend([
             "<details>",
             f"<summary><strong>{name}</strong> · <a href=\"https://github.com/{repo}\">repository</a></summary>",
             "",
             description,
             "",
+            f"<sub>{origin}</sub>",
+            "",
             FENCE + "mermaid",
-            mermaid_for(project),
+            diagram,
             FENCE,
             "",
             "</details>",
@@ -177,10 +183,28 @@ def activity_label(message: str) -> str:
     return "Change"
 
 
+def extract_readme_mermaid(readme_text: str) -> str | None:
+    """Return the first documented Mermaid diagram, if the repository README has one."""
+    blocks = re.findall(r"\`\`\`mermaid[ \t]*\r?\n(.*?)\r?\n\`\`\`", readme_text, flags=re.IGNORECASE | re.DOTALL)
+    for block in blocks:
+        diagram = block.strip()
+        if diagram.startswith(("flowchart ", "flowchart\n", "graph ", "sequenceDiagram")):
+            return diagram
+    return None
+
+
 def get_project_data(api: GitHubAPI, project: dict[str, Any]) -> dict[str, Any]:
     repo_name = project["repo"]
     metadata = api.get(f"/repos/{repo_name}")
     branch = metadata.get("default_branch") or "main"
+    readme_payload = api.get(f"/repos/{repo_name}/readme", optional=True)
+    readme_text = ""
+    if isinstance(readme_payload, dict) and readme_payload.get("content"):
+        try:
+            readme_text = base64.b64decode(readme_payload["content"]).decode("utf-8", errors="replace")
+        except (ValueError, TypeError):
+            readme_text = ""
+    readme_diagram = extract_readme_mermaid(readme_text)
     commits = api.get(f"/repos/{repo_name}/commits?sha={branch}&per_page=6")
     if not isinstance(commits, list):
         raise ValueError(f"GitHub returned an unexpected commit response for {repo_name}.")
@@ -193,6 +217,7 @@ def get_project_data(api: GitHubAPI, project: dict[str, Any]) -> dict[str, Any]:
         "config": project,
         "metadata": metadata,
         "commits": commits,
+        "readme_diagram": readme_diagram,
         "latest_sha": latest_sha,
         "check_runs": checks.get("check_runs", []) if isinstance(checks, dict) else [],
         "status_data": statuses if isinstance(statuses, dict) else {},
@@ -220,7 +245,7 @@ def check_state(item: dict[str, Any]) -> str:
         return "Passing"
     if runs or statuses:
         return "Needs review"
-    return "Not configured"
+    return "No checks reported"
 
 
 def health_markdown(items: list[dict[str, Any]]) -> str:
@@ -236,6 +261,8 @@ def health_markdown(items: list[dict[str, Any]]) -> str:
         check = f"[{check_state(item)}]({repo_url}/commit/{sha}/checks)" if sha else "Unavailable"
         license_data = metadata.get("license")
         license_name = clean(license_data.get("spdx_id") if isinstance(license_data, dict) else None, 40) or "Not specified"
+        if license_name.upper() in {"NOASSERTION", "NONE"}:
+            license_name = "Not specified"
         release = item.get("release")
         if isinstance(release, dict) and release.get("tag_name"):
             release_cell = f"[{clean(release['tag_name'], 40)}]({release.get('html_url', repo_url + '/releases')})"
@@ -246,7 +273,7 @@ def health_markdown(items: list[dict[str, Any]]) -> str:
         lines.append(f"| [{clean(config['name'], 80)}]({repo_url}) | {check} | {license_name} | {release_cell} | {pushed_label} |")
     lines.extend([
         "",
-        "<sub>Checks apply to the latest commit on each default branch. “Not configured” means GitHub reported no checks or commit statuses; it is not a passing result. Release and license values come from repository metadata.</sub>",
+        "<sub>Checks apply to the latest commit on each default branch. “No checks reported” means GitHub returned no check runs or commit statuses for that commit; it is not a passing result. Release and license values come from repository metadata.</sub>",
     ])
     return "\n".join(lines)
 
@@ -276,7 +303,17 @@ def recent_activity(items: list[dict[str, Any]], days: int = 60, limit: int = 10
                 "kind": activity_label(title),
             })
     activity.sort(key=lambda entry: entry["date"], reverse=True)
-    return activity[:limit]
+    deduplicated = []
+    seen = set()
+    for entry in activity:
+        if entry["title"].lower().startswith("merge "):
+            continue
+        key = (entry["repo_url"], entry["title"].casefold())
+        if key in seen:
+            continue
+        seen.add(key)
+        deduplicated.append(entry)
+    return deduplicated[:limit]
 
 
 def activity_markdown(activity: list[dict[str, Any]], days: int = 60) -> str:
@@ -320,7 +357,7 @@ def main() -> int:
         api = GitHubAPI(build_session())
         items = [get_project_data(api, project) for project in config["featured_projects"]]
         activity = recent_activity(items)
-        architecture = architecture_markdown(config["featured_projects"])
+        architecture = architecture_markdown(items)
         activity_text = activity_markdown(activity)
         health = health_markdown(items)
 
