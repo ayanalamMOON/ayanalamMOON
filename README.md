@@ -14,7 +14,7 @@
 
 <img align="right" alt="Coding Animation" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-Currently working on **Time Table Generator algorithms** for educational institutions, with a focus on **Advanced Machine Learning** and **System Design**. I'm passionate about solving algorithmic challenges and building innovative solutions that make a difference.
+I’m a B.Tech Data Science student building systems at the intersection of **AI/ML, systems engineering, and developer tooling**. My current work spans **hardware-aware neural architecture search**, **agentic WebGPU/WGSL shader generation and profiling** with Shader Alchemist, **developer-memory infrastructure** with Cortexta, and **backend systems** with Go and Rust. I’m especially interested in compiler and language design, GPU computing, algorithmic optimization, and turning research ideas into reliable, measurable software.
 
 **Contact:** [mdayanalam12a@gmail.com](mailto:mdayanalam12a@gmail.com)
 
