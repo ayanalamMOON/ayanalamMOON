@@ -1,33 +1,33 @@
-# Configuration for README Auto-Update
-# This file allows you to customize how your projects are displayed
-
-# GitHub username (should match your repository owner)
+# Configuration for the dynamic project list in README.md
 github_username: "ayanalamMOON"
 
-# Maximum number of projects to display
-max_projects: 5
-
-# Minimum age of last update to consider a project "active" (in months)
+max_projects: 6
 activity_threshold_months: 6
-
-# Projects to exclude from the list (repository names)
 excluded_projects:
-  - "ayanalamMOON"  # Profile repository
-  - ".github"       # Special GitHub repository
+  - "ayanalamMOON"  # This profile repository
+  - ".github"
 
-# Projects to always include (even if not recently updated)
+# Optional repositories to keep visible regardless of update recency.
 pinned_projects: []
 
-# Custom project descriptions (override GitHub descriptions)
-custom_descriptions: {}
+# Better summaries for key projects when they appear in the dynamic list.
+custom_descriptions:
+  "Shader-Alchemist": "Agentic WebGPU/WGSL shader synthesis, validation, GPU profiling, and iterative optimization."
+  "NeuroswarmAutoml": "Hardware-aware neural architecture search that co-evolves network topologies and hyperparameters under latency and FLOP constraints."
+  "Helios": "Go backend framework with durable storage, authentication, RBAC, rate limiting, background jobs, and reverse-proxy capabilities."
+  "Cortexta": "Local-first developer-memory runtime with semantic retrieval and context management for coding workflows."
+  "Nagari": "Rust-based programming language project exploring a Python-like authoring experience and JavaScript ecosystem interoperability."
+  "aletheia": "Document perception for AI coding agents, including OCR, layout analysis, and table extraction."
 
-# Project categories/tags (optional)
-project_tags: {}
+project_tags:
+  "Shader-Alchemist": ["WebGPU", "WGSL", "GPU Computing"]
+  "NeuroswarmAutoml": ["AutoML", "Neural Architecture Search"]
+  "Helios": ["Go", "Backend Systems"]
+  "Cortexta": ["Developer Tools", "Memory Runtime"]
+  "Nagari": ["Rust", "Language Design"]
+  "aletheia": ["Document AI", "Developer Tools"]
 
-# Display settings
 show_language: true
 show_last_updated: true
-show_stats: false  # Show stars, forks, etc.
-
-# Time zone for "Last updated" display
+show_stats: false
 timezone: "UTC"

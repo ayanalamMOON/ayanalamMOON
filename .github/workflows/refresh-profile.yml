@@ -1,0 +1,102 @@
+name: Refresh Profile README
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [project-update]
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh project list and profile graphics
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install project-list dependencies
+        run: python -m pip install --disable-pip-version-check requests python-dateutil PyYAML
+
+      - name: Update recently updated repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_projects.py
+
+      - name: Generate dark activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ayanalamMOON
+          options: "bg_color=1a1b27&color=c9d1d9&line=70a5fd&point=bf91f3&area=true&hide_border=true"
+          output_path: assets/activity-graph.dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ayanalamMOON
+          options: "bg_color=ffffff&color=24292f&line=0969da&point=8250df&area=true&hide_border=true"
+          output_path: assets/activity-graph.light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate self-hosted profile metric cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: ayanalamMOON
+          cards: overview,contributions,repositories,languages
+          output-dir: assets
+          themes: light,dark
+          commit: false
+
+      - name: Commit refreshed README and SVG assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/*.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile README and generated graphics are already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh README and analytics [skip ci]"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase conflict detected; the next scheduled/manual run can retry safely."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo "Profile refresh committed successfully."
+              exit 0
+            fi
+            echo "Push raced with another update (attempt $attempt/5); retrying."
+            sleep 2
+          done
+
+          echo "Could not push generated profile updates after five attempts."
+          exit 1
