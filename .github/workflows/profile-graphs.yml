@@ -57,4 +57,19 @@ jobs:
           fi
 
           git commit -m "chore(profile): refresh generated graphs [skip ci]"
-          git push
+
+          # Other profile workflows may update README.md concurrently. Rebase the
+          # generated assets onto the latest main and retry if the branch advances.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "Profile graphs committed successfully."
+              exit 0
+            fi
+            echo "Push raced with another update (attempt $attempt/5); retrying."
+            sleep 2
+          done
+
+          echo "Could not push generated profile graphs after five attempts."
+          exit 1
