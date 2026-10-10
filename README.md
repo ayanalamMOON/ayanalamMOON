@@ -233,16 +233,16 @@ An automatically refreshed index of recent default-branch engineering activity. 
 <!-- ENGINEERING-NOTEBOOK-START -->
 Automatically indexed from the configured repositories' default branches, covering the last 60 days.
 
-- **2026-10-09 · Docs · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [updated readme](https://github.com/ayanalamMOON/Shader-Alchemist/commit/9ccf4e05a78604e1482b33255a5908fcee4b1678)
-- **2026-10-09 · Docs · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Add Shader Alchemist README artwork](https://github.com/ayanalamMOON/Shader-Alchemist/commit/2836365b2b76d1473d1cc0412014b3995169906b)
-- **2026-10-09 · Feature · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [feat: harden WebGPU execution and expand ADK runtime integration](https://github.com/ayanalamMOON/Shader-Alchemist/commit/2f4bf325443231eb8a5678455adee43d47fbf6a2)
-- **2026-10-09 · Feature · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [feat: initial project scaffold with agent-core pipeline and WebGPU harness](https://github.com/ayanalamMOON/Shader-Alchemist/commit/f0f6e8acdc4908cf92a4e08bd5fc870a7fe31e83)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Correct display math delimiters for GitHub Markdown](https://github.com/ayanalamMOON/Shader-Alchemist/commit/76c778ee31c825a7170a5bf2fc39f77904b496b8)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Fix Markdown math delimiters for GitHub rendering](https://github.com/ayanalamMOON/Shader-Alchemist/commit/ba2554cfdb35eef529661382ae17fcf6d638d8eb)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Fix Markdown code formatting in alignment rules](https://github.com/ayanalamMOON/Shader-Alchemist/commit/d44c846c238357c76a5308d632ba26096bc591ef)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Expand WGSL memory alignment rules with equations and diagrams](https://github.com/ayanalamMOON/Shader-Alchemist/commit/421d9b3ef8875cb54479e63b580f8958f29ba2b0)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Document Apache-2.0 project license](https://github.com/ayanalamMOON/Shader-Alchemist/commit/7ff486c98b9103b73e2674e8e789661b05afa419)
+- **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Add Apache License 2.0](https://github.com/ayanalamMOON/Shader-Alchemist/commit/17d0fb9cd886369555ac1fef9a4ba24acbaf1e48)
 - **2026-09-21 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [style(context): apply Black formatting](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9)
 - **2026-09-21 · Feature · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [feat(context): add pretrained Cortexta context bridge](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/615df7b99840559ef1bfa61176887d313080b021)
 - **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Add realistic Helios retail demo application](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a)
 - **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Upgrade and integrate Helios command services](https://github.com/ayanalamMOON/Helios/commit/92948416c6feb69619a2af233bdcfa7d7d562158)
-- **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [updated security handlers](https://github.com/ayanalamMOON/Helios/commit/49d548d534d2ddb57cda2d3a9fd545ae679a6cb3)
-- **2026-08-26 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [updated requirmnets](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/359b31845395006a773cf025f244c378e6556e4d)
 
 Labels are inferred from commit subjects and are navigation hints only. This feed does not claim that a benchmark, experiment, or correctness result passed.
 <!-- ENGINEERING-NOTEBOOK-END -->
@@ -254,7 +254,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 <!-- PROJECT-HEALTH-START -->
 | Project | Latest commit checks | License | Latest release | Last push (UTC) |
 |---|---|---|---|---|
-| [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist) | [No checks reported](https://github.com/ayanalamMOON/Shader-Alchemist/commit/4be7bc6a674d653bef6390e958814b8fde299beb/checks) | Not specified | None published | 2026-10-09 |
+| [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist) | [Passing](https://github.com/ayanalamMOON/Shader-Alchemist/commit/76c778ee31c825a7170a5bf2fc39f77904b496b8/checks) | Apache-2.0 | [v0.1.0](https://github.com/ayanalamMOON/Shader-Alchemist/releases/tag/v0.1.0) | 2026-10-09 |
 | [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml) | [Passing](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9/checks) | MIT | [v0.2.0](https://github.com/ayanalamMOON/NeuroswarmAutoml/releases/tag/v0.2.0) | 2026-09-21 |
 | [Helios](https://github.com/ayanalamMOON/Helios) | [No checks reported](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a/checks) | MIT | [v0.1.0](https://github.com/ayanalamMOON/Helios/releases/tag/v0.1.0) | 2026-09-21 |
 | [Cortexta](https://github.com/ayanalamMOON/Cortexta) | [Passing](https://github.com/ayanalamMOON/Cortexta/commit/433b5eb0836fae818dbfc8afeb933df106d61761/checks) | MIT | [v0.1.3](https://github.com/ayanalamMOON/Cortexta/releases/tag/v0.1.3) | 2026-08-11 |
@@ -293,7 +293,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 09, 2026 at 18:10 UTC*
+*Last updated: October 10, 2026 at 06:02 UTC*
 <!-- PROJECTS-END -->
 
 ---
