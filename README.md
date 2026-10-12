@@ -271,7 +271,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 
 - **[Shader-Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — Agentic WebGPU/WGSL shader synthesis, validation, GPU profiling, and iterative optimization.
   
-  `Python` · *Updated Yesterday* · `WebGPU` · `WGSL` · `GPU Computing`
+  `Python` · *Updated 2 days ago* · `WebGPU` · `WGSL` · `GPU Computing`
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — Hardware-aware neural architecture search that co-evolves network topologies and hyperparameters under latency and FLOP constraints.
   
@@ -279,7 +279,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** — Go backend framework with durable storage, authentication, RBAC, rate limiting, background jobs, and reverse-proxy capabilities.
   
-  `Go` · *Updated 2 weeks ago* · `Go` · `Backend Systems`
+  `Go` · *Updated 3 weeks ago* · `Go` · `Backend Systems`
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** — Document perception for AI coding agents, including OCR, layout analysis, and table extraction.
   
@@ -293,7 +293,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 11, 2026 at 06:00 UTC*
+*Last updated: October 12, 2026 at 06:10 UTC*
 <!-- PROJECTS-END -->
 
 ---
