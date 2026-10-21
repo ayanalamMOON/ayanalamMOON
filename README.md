@@ -279,7 +279,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** — Go backend framework with durable storage, authentication, RBAC, rate limiting, background jobs, and reverse-proxy capabilities.
   
-  `Go` · *Updated 4 weeks ago* · `Go` · `Backend Systems`
+  `Go` · *Updated 1 month ago* · `Go` · `Backend Systems`
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** — Document perception for AI coding agents, including OCR, layout analysis, and table extraction.
   
@@ -293,7 +293,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 20, 2026 at 05:01 UTC*
+*Last updated: October 21, 2026 at 05:01 UTC*
 <!-- PROJECTS-END -->
 
 ---
