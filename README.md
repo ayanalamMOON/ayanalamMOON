@@ -275,7 +275,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — Hardware-aware neural architecture search that co-evolves network topologies and hyperparameters under latency and FLOP constraints.
   
-  `Python` · *Updated 4 weeks ago* · `AutoML` · `Neural Architecture Search`
+  `Python` · *Updated 1 month ago* · `AutoML` · `Neural Architecture Search`
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** — Go backend framework with durable storage, authentication, RBAC, rate limiting, background jobs, and reverse-proxy capabilities.
   
@@ -293,7 +293,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 21, 2026 at 05:01 UTC*
+*Last updated: October 22, 2026 at 05:03 UTC*
 <!-- PROJECTS-END -->
 
 ---
