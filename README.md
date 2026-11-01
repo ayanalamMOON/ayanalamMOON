@@ -275,25 +275,25 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 
 - **[NeuroswarmAutoml](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — Hardware-aware neural architecture search that co-evolves network topologies and hyperparameters under latency and FLOP constraints.
   
-  `Python` · *Updated 1 month ago* · `AutoML` · `Neural Architecture Search`
+  `Python` · *Updated 2 months ago* · `AutoML` · `Neural Architecture Search`
 
 - **[Helios](https://github.com/ayanalamMOON/Helios)** — Go backend framework with durable storage, authentication, RBAC, rate limiting, background jobs, and reverse-proxy capabilities.
   
-  `Go` · *Updated 1 month ago* · `Go` · `Backend Systems`
+  `Go` · *Updated 2 months ago* · `Go` · `Backend Systems`
 
 - **[aletheia](https://github.com/ayanalamMOON/aletheia)** — Document perception for AI coding agents, including OCR, layout analysis, and table extraction.
   
-  `Python` · *Updated 1 month ago* · `Document AI` · `Developer Tools`
+  `Python` · *Updated 2 months ago* · `Document AI` · `Developer Tools`
 
 - **[polyglot-app](https://github.com/ayanalamMOON/polyglot-app)** — Description not provided yet.
   
-  `HTML` · *Updated 2 months ago*
+  `HTML` · *Updated 3 months ago*
 
 - **[Cortexta](https://github.com/ayanalamMOON/Cortexta)** — Local-first developer-memory runtime with semantic retrieval and context management for coding workflows.
   
-  `TypeScript` · *Updated 2 months ago* · `Developer Tools` · `Memory Runtime`
+  `TypeScript` · *Updated 3 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: October 31, 2026 at 05:56 UTC*
+*Last updated: November 01, 2026 at 06:25 UTC*
 <!-- PROJECTS-END -->
 
 ---
