@@ -241,8 +241,6 @@ Automatically indexed from the configured repositories' default branches, coveri
 - **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Add Apache License 2.0](https://github.com/ayanalamMOON/Shader-Alchemist/commit/17d0fb9cd886369555ac1fef9a4ba24acbaf1e48)
 - **2026-09-21 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [style(context): apply Black formatting](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9)
 - **2026-09-21 · Feature · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [feat(context): add pretrained Cortexta context bridge](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/615df7b99840559ef1bfa61176887d313080b021)
-- **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Add realistic Helios retail demo application](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a)
-- **2026-09-21 · Change · [Helios](https://github.com/ayanalamMOON/Helios)** — [Upgrade and integrate Helios command services](https://github.com/ayanalamMOON/Helios/commit/92948416c6feb69619a2af233bdcfa7d7d562158)
 
 Labels are inferred from commit subjects and are navigation hints only. This feed does not claim that a benchmark, experiment, or correctness result passed.
 <!-- ENGINEERING-NOTEBOOK-END -->
@@ -293,7 +291,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 3 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: November 19, 2026 at 07:38 UTC*
+*Last updated: November 20, 2026 at 07:29 UTC*
 <!-- PROJECTS-END -->
 
 ---
