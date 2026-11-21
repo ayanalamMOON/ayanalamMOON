@@ -239,8 +239,6 @@ Automatically indexed from the configured repositories' default branches, coveri
 - **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Expand WGSL memory alignment rules with equations and diagrams](https://github.com/ayanalamMOON/Shader-Alchemist/commit/421d9b3ef8875cb54479e63b580f8958f29ba2b0)
 - **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Document Apache-2.0 project license](https://github.com/ayanalamMOON/Shader-Alchemist/commit/7ff486c98b9103b73e2674e8e789661b05afa419)
 - **2026-10-09 · Change · [Shader Alchemist](https://github.com/ayanalamMOON/Shader-Alchemist)** — [Add Apache License 2.0](https://github.com/ayanalamMOON/Shader-Alchemist/commit/17d0fb9cd886369555ac1fef9a4ba24acbaf1e48)
-- **2026-09-21 · Change · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [style(context): apply Black formatting](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9)
-- **2026-09-21 · Feature · [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml)** — [feat(context): add pretrained Cortexta context bridge](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/615df7b99840559ef1bfa61176887d313080b021)
 
 Labels are inferred from commit subjects and are navigation hints only. This feed does not claim that a benchmark, experiment, or correctness result passed.
 <!-- ENGINEERING-NOTEBOOK-END -->
@@ -291,7 +289,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 3 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: November 20, 2026 at 07:29 UTC*
+*Last updated: November 21, 2026 at 07:24 UTC*
 <!-- PROJECTS-END -->
 
 ---
