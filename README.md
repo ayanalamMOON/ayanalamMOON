@@ -254,7 +254,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
 | [NeuroSwarm AutoML](https://github.com/ayanalamMOON/NeuroswarmAutoml) | [Passing](https://github.com/ayanalamMOON/NeuroswarmAutoml/commit/8fdf1c97d3c1e2018f4b51509ff3ce8479a7abc9/checks) | MIT | [v0.2.0](https://github.com/ayanalamMOON/NeuroswarmAutoml/releases/tag/v0.2.0) | 2026-09-21 |
 | [Helios](https://github.com/ayanalamMOON/Helios) | [No checks reported](https://github.com/ayanalamMOON/Helios/commit/6c065519e43f3c25f4d1310bc3523a085b849e4a/checks) | MIT | [v0.1.0](https://github.com/ayanalamMOON/Helios/releases/tag/v0.1.0) | 2026-09-21 |
 | [Cortexta](https://github.com/ayanalamMOON/Cortexta) | [Passing](https://github.com/ayanalamMOON/Cortexta/commit/433b5eb0836fae818dbfc8afeb933df106d61761/checks) | MIT | [v0.1.3](https://github.com/ayanalamMOON/Cortexta/releases/tag/v0.1.3) | 2026-08-11 |
-| [Nagari](https://github.com/ayanalamMOON/Nagari) | [Passing](https://github.com/ayanalamMOON/Nagari/commit/7747c5ffed71830c9e8d9135c85fa023e349d320/checks) | MIT | None published | 2025-11-01 |
+| [Nagari](https://github.com/ayanalamMOON/Nagari) | [No checks reported](https://github.com/ayanalamMOON/Nagari/commit/7747c5ffed71830c9e8d9135c85fa023e349d320/checks) | MIT | None published | 2025-11-01 |
 | [Aletheia](https://github.com/ayanalamMOON/aletheia) | [No checks reported](https://github.com/ayanalamMOON/aletheia/commit/5e4fb50bc5b3e088cdb43e88c480dbbb86db9604/checks) | MIT | None published | 2026-01-28 |
 
 <sub>Checks apply to the latest commit on each default branch. “No checks reported” means GitHub returned no check runs or commit statuses for that commit; it is not a passing result. Release and license values come from repository metadata.</sub>
@@ -289,7 +289,7 @@ Latest default-branch checks, release metadata, and declared licenses for the se
   
   `TypeScript` · *Updated 3 months ago* · `Developer Tools` · `Memory Runtime`
 
-*Last updated: November 25, 2026 at 08:51 UTC*
+*Last updated: November 26, 2026 at 08:36 UTC*
 <!-- PROJECTS-END -->
 
 ---
